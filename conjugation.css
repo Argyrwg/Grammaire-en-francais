@@ -1,0 +1,66 @@
+body{ 
+	font-family: "Seogoe UI", Arial, sans-serif;
+	background: #fff0f5;
+	color:#333;
+	max-width:900px;
+	margin:0 auto;
+	padding: 20px 30px;
+	line-height:1,6;
+    }
+
+h1 {
+	text-align:center;
+	color: #6a1b91;
+	border-bottom:3px solid #6a1b9a;
+	padding-bottom:10px;
+
+   }
+   	
+h2 {
+	color:#6a1b9a;
+	margin-top:40px;
+   }
+<!--  .pronoun{
+	background: #f8bbd0;
+	color: 6a1b91;
+	}   -->
+
+ h3,h4 {
+ color:#8e24aa;
+ 	}
+
+table {
+	border-collapse: collapse;
+	margin:15px; 0;
+	background:white;
+	border-radius:8px;
+	overflow: hidden;
+	box-shadow:0 2px 8px rgba(0 , 0 , 0 , 0.15);
+	}
+
+th, td {
+	padding :8px 16px;
+	text-align:center;
+	border:1px solid#f3c6dc;
+	}
+
+th{
+	background: #8e24aa;
+	color: white;
+   }
+tbody th,
+tr th:first-child{
+
+  	background: #e1bee7;
+  	color:#4a148c;
+  	}
+tr:nth-child(even) td{
+   background: #fce4dec;
+   }
+
+tr:hover td {
+	background: #f8bbd0;
+	}
+p{ 
+	font-size:1rem;
+ }
